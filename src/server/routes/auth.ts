@@ -18,11 +18,19 @@ export const setSecureCookie = (
   });
 };
 
-auth.post("/sign-in", async (c) => {});
+auth.post("/sign-in", async () => {
+  // validate input from the user
+  // invoke the uses cases
+  // return the data to the client
+});
 
-auth.post("/sign-up", async (c) => {});
+auth.post("/sign-up", async () => {
+  // validate input from the user
+  // invoke the uses cases
+  // return the data to the client
+});
 
-auth.get("/logout", async (c) => {
+auth.get("/logout", async () => {
   //   const userId = await getUserId(c);
   //   const sessionId = getCookie(c, "auth_session");
   //   if (!userId) {

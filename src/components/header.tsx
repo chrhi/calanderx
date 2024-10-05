@@ -7,14 +7,12 @@ export default function Header() {
       <MaxWidthWrapper className="h-full">
         <div className="w-full h-full flex items-center justify-between">
           <div className="w-fit h-full flex items-center justify-start gap-x-4 ">
-            <span className="text-xl font-bold ">CalanderX</span>
+            <span className="text-2xl font-bold text-[#3281fc] ">Aurwan</span>
           </div>
 
           <div className="w-fit h-full flex items-center justify-end gap-x-4">
-            <Button>sign in</Button>
-            <Button className="bg-[#181818] text-white">
-              strat free trial
-            </Button>
+            <Button variant={"ghost"}>sign in</Button>
+            <Button className=" text-white">strat free trial</Button>
           </div>
         </div>
       </MaxWidthWrapper>

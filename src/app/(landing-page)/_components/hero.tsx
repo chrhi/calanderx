@@ -16,7 +16,7 @@ const Hero: FC = () => {
             meeting, not making meetings. Free for individuals.
           </p>
 
-          <Button className="bg-[#181818] min-w-[100px] w-fit h-[50px]   text-white">
+          <Button className=" min-w-[100px] w-fit h-[50px]   text-white">
             Start Free Trial
           </Button>
         </div>
